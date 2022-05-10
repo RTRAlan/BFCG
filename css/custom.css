@@ -1,0 +1,50 @@
+:root {
+  --brand-red: #b31942;
+  --brand-blue: #0a3161;
+  --brand-blue-2: #3660a1;
+  --brand-light: #faf9f6;
+  --brand-dark: #272727;
+}
+
+nav {
+  background-color: var(--brand-red);
+}
+
+.jumbotron {
+  background-image: url(/images/hero_flag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-text {
+  color: var(--brand-dark);
+}
+
+.red-text {
+  color: var(--brand-red);
+}
+
+.blue-text {
+  color: var(--brand-blue);
+}
+
+.blue-text-2 {
+  color: var(--brand-blue-2);
+}
+
+.btn-blue {
+  background-color: var(--brand-blue-2);
+  color: var(--brand-light);
+}
+
+.btn-blue:hover {
+  background-color: var(--brand-blue);
+  color: var(--brand-light);
+}
+
+.custom-sidebar {
+  background-color: #c0c0c0;
+  border-radius: 8px;
+  padding: 0.75rem;
+}
